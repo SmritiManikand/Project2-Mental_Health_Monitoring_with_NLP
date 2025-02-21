@@ -1,59 +1,74 @@
-## Title of the Project
-Small description about the project like one below
-The integration of a chatbot within a hostel booking system, aimed at streamlining the reservation process for students and improving the overall user experience.
+## Enhanced Mental Health Monitoring Using NLP and RNN Techniques
+
+The project aims to analyze text data to detect emotions and monitor mental health patterns. By leveraging Natural Language Processing (NLP) and deep learning models like RNN and LSTM, the system identifies emotional fluctuations, providing valuable insights for early mental health intervention.
 
 ## About
-<!--Detailed Description about the project-->
-Tailored Chatbot for Hostel Booking System is a project designed to integrate a chatbot that leverages advanced natural language processing techniques to understand and respond to user queries to the hostel booking system. Traditional hostel booking processes are often time-consuming and involve manual searches and extensive communication with hostel staff. This project seeks to overcome these challenges by creating an easy-to-use chatbot interface that assists students in addressing inquiries.
+
+The project focuses on utilizing Natural Language Processing (NLP) and deep learning models to analyze textual data for mental health assessment. By employing Recurrent Neural Networks (RNN) and Long Short-Term Memory (LSTM) networks, the system effectively captures emotional patterns and detects mood fluctuations over time. It processes user-generated text, identifies underlying sentiments, and classifies emotional states to support early intervention strategies. The project also incorporates data visualization techniques to highlight trends and insights for better understanding. A Django-based web application integrates the model, offering users real-time feedback on their emotional well-being.
 
 ## Features
-<!--List the features of the project as shown below-->
-- Implements advance neural network method.
-- A framework based application for deployment purpose.
-- High scalability.
-- Less time complexity.
-- A specific scope of Chatbot response model, using json data format.
+
+- Sentiment and emotion analysis
+- Real-time mental health monitoring
+- Text preprocessing and cleaning
+- RNN and LSTM model integration
+- Data visualization of emotional trends
+- User-friendly web interface using Django
+- Secure user data handling
+- Comparative analysis of RNN and LSTM
+- Real-time feedback on emotional state
+- Scalable and customizable architecture
 
 ## Requirements
-<!--List the requirements of the project as shown below-->
-* Operating System: Requires a 64-bit OS (Windows 10 or Ubuntu) for compatibility with deep learning frameworks.
-* Development Environment: Python 3.6 or later is necessary for coding the sign language detection system.
-* Deep Learning Frameworks: TensorFlow for model training, MediaPipe for hand gesture recognition.
-* Image Processing Libraries: OpenCV is essential for efficient image processing and real-time hand gesture recognition.
-* Version Control: Implementation of Git for collaborative development and effective code management.
-* IDE: Use of VSCode as the Integrated Development Environment for coding, debugging, and version control integration.
-* Additional Dependencies: Includes scikit-learn, TensorFlow (versions 2.4.1), TensorFlow GPU, OpenCV, and Mediapipe for deep learning tasks.
+
+* Operating System: Requires a 64-bit OS (Windows 10 or Ubuntu) for compatibility with deep learning frameworks and web development tools.
+* Development Environment: Python 3.7 or later is necessary for coding the mental health monitoring system.
+* Deep Learning Frameworks: TensorFlow/Keras for building and training RNN and LSTM models for emotion detection.
+* Natural Language Processing Libraries: NLTK and SpaCy for text preprocessing, tokenization, and lemmatization.
+* Data Visualization Libraries: Matplotlib and Seaborn for visualizing emotional trends and model performance.
+* Web Development Framework: Django for building the backend and integrating machine learning models into the web application.
+* IDE: Use of VS Code for coding, debugging, and seamless integration with Python environments.
+* Version Control: Implementation of Git for collaborative development and efficient code management.
+* Additional Dependencies: Includes scikit-learn, pandas, NumPy, TensorFlow (2.x), and Django REST framework for data handling, model training, and web integration.
 
 ## System Architecture
-<!--Embed the system architecture diagram as shown below-->
 
-![Screenshot 2023-11-25 133637](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/a60c11f3-0a11-47fb-ac89-755d5f45c995)
+
+![architecture](https://github.com/user-attachments/assets/8358c388-6e8d-4ea9-a0db-c7ff87c428dd)
 
 
 ## Output
 
-<!--Embed the Output picture at respective places as shown below as shown below-->
-#### Output1 - Name of the output
 
-![Screenshot 2023-11-25 134037](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/8c2b6b5c-5ed2-4ec4-b18e-5b6625402c16)
+#### Output1 - Output page if not affected
 
-#### Output2 - Name of the output
-![Screenshot 2023-11-25 134253](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/5e05c981-05ca-4aaa-aea2-d918dcf25cb7)
+![output1](https://github.com/user-attachments/assets/f466aeec-8f25-4a9e-bbd4-10b7bd6c8f77)
 
-Detection Accuracy: 96.7%
-Note: These metrics can be customized based on your actual performance evaluations.
+#### Output2 - Output page if affected
 
+![output2](https://github.com/user-attachments/assets/f1796aa4-9779-4cb7-9bf7-36532afd7f38)
+
+#### LSTM accuracy score
+
+![lstm](https://github.com/user-attachments/assets/4e9cdbbc-d6c5-4ea1-80c5-7cd3fd127646)
+
+#### Simple RNN accuracy score
+
+![simplernn](https://github.com/user-attachments/assets/2f576b18-00b8-4eed-804c-f569d54cd369)
 
 ## Results and Impact
-<!--Give the results and impact as shown below-->
-The Sign Language Detection System enhances accessibility for individuals with hearing and speech impairments, providing a valuable tool for inclusive communication. The project's integration of computer vision and deep learning showcases its potential for intuitive and interactive human-computer interaction.
 
-This project serves as a foundation for future developments in assistive technologies and contributes to creating a more inclusive and accessible digital environment.
+The project provides an effective tool for early detection of emotional fluctuations, supporting mental health awareness and intervention. By integrating deep learning and natural language processing, the system offers valuable insights into users' emotional well-being through real-time sentiment analysis.
+
+The project highlights the potential of AI-driven solutions in mental health monitoring and paves the way for more personalized and data-driven mental health support systems. It serves as a foundation for future research and development in AI-based mental health applications, promoting proactive well-being management.
 
 ## Articles published / References
-1. N. S. Gupta, S. K. Rout, S. Barik, R. R. Kalangi, and B. Swampa, “Enhancing Heart Disease Prediction Accuracy Through Hybrid Machine Learning Methods ”, EAI Endorsed Trans IoT, vol. 10, Mar. 2024.
-2. A. A. BIN ZAINUDDIN, “Enhancing IoT Security: A Synergy of Machine Learning, Artificial Intelligence, and Blockchain”, Data Science Insights, vol. 2, no. 1, Feb. 2024.
 
-
-
+1. Hochreiter, S., & Schmidhuber, J. (1997). Long short-term memory. Neural Computation, 9(8), 1735–1780. 
+2. Pennington, J., Socher, R., & Manning, C. D. (2014). GloVe: Global Vectors for Word Representation. In Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing (EMNLP) (pp. 1532–1543).
+3. Mikolov, T., Chen, K., Corrado, G., & Dean, J. (2013). Efficient Estimation of Word Representations in Vector Space. arXiv preprint arXiv:1301.3781.
+4. Devlin, J., Chang, M. W., Lee, K., & Toutanova, K. (2019). BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. In Proceedings of NAACL-HLT 2019 (pp. 4171–4186).
+5. Calvo, R. A., Milne, D. N., Hussain, M. S., & Christensen, H. (2017). Natural Language Processing in Mental Health Applications Using Non-clinical Texts. Natural Language Engineering, 23(5), 649–685.
+6. Orabi, A. H., Buddhitha, P., Orabi, M. H., & Inkpen, D. (2018). Deep Learning for Depression Detection of Twitter Users. In Proceedings of the Fifth Workshop on Computational Linguistics and Clinical Psychology: From Keyboard to Clinic (pp. 88–97).
+7. American Psychological Association. (2020). Publication Manual of the American Psychological Association (7th ed.). American Psychological Association.
 
